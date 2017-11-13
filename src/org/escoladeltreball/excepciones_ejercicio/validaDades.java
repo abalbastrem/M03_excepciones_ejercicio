@@ -4,7 +4,7 @@
 package org.escoladeltreball.excepciones_ejercicio;
 
 /**
- * @author iaw46994355
+ * @author iaw46994355.
  *
  */
 public class validaDades {
