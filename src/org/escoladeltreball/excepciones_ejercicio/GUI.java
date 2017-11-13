@@ -42,18 +42,18 @@ public class GUI {
         estudios= new JLabel();
         salario= new JLabel();
        
-        text1 = new JTextField();
-        text2 = new JTextField();
-        text3 = new JTextField();
-        text4 = new JTextField();
-        text5 = new JTextField();
-        text6 = new JTextField();
-        text7 = new JTextField();
-        text8 = new JTextField();
-        text9 = new JTextField();
-        text10 = new JTextField();
-        boton1 = new JButton();
-        boton2 = new JButton();
+        text1 = new JTextField(); // Nombre
+        text2 = new JTextField(); // Apellido 1
+        text3 = new JTextField(); // Apellido 2
+        text4 = new JTextField(); // Telefono
+        text5 = new JTextField(); // DNI
+        text6 = new JTextField(); // ID empleado
+        text7 = new JTextField(); // cargo
+        text8 = new JTextField(); // jornada
+        text9 = new JTextField(); // estudios
+        text10 = new JTextField(); // salario
+        boton1 = new JButton(); // Aceptar
+        boton2 = new JButton(); // Cancelar
         list = new JTextArea();
        
         frame.setTitle("Formulario");
@@ -146,10 +146,10 @@ public class GUI {
              System.out.println("Recogemos los datos y los validamos" + text1.getText() );
          }
      }
-    public static void main(String[] args) {
- 
-        GUI pa = new GUI();
- 
-    }
+//    public static void main(String[] args) {
+// 
+//        GUI pa = new GUI();
+// 
+//    }
  
 }
